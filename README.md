@@ -1,2 +1,2 @@
-# ExerciciosPython01-100
- Exercicios realizados do curso em video - Python Modulo 1
+# Exercícios Python 01-100
+ Exercícios realizados do curso em video - Python Modulo 1
