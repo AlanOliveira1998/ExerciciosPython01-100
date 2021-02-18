@@ -2,4 +2,3 @@
 n1 = float(input('Digite o valor que tem na carteira em reais: R$'))
 d = n1 / 3.27
 print('Com R${:.2f} você poderar comprar U${:.2f} dolares'.format(n1, d))
-

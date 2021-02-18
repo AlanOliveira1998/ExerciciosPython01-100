@@ -6,4 +6,3 @@ altura = float(input('Qual a sua altura?'))
 peso = float(input('Qual é o seu peso?'))
 n = peso/(altura*altura)
 print('Seu IMC corresponde a {:.2f}'.format(n))
-

@@ -7,8 +7,3 @@ n = n1 * n2
 print('A multiplicação entre {} e {} vale {}!'.format(n1, n2, n))
 n = n1 / n2
 print('A divisão entre {} e {} vale {}!, obrigado por usar nosso programa :)'.format(n1, n2, n))
-
-
-
-
-

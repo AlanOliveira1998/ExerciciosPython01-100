@@ -5,7 +5,3 @@ area = L * A
 print('A area dessa parede corresponde a {} m²'.format(area))
 q = area / 2
 print('Para pintar essa parede, você precisara de {} litros de tinta!'.format(q))
-
-
-
-
