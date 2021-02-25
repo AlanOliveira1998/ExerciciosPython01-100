@@ -1,0 +1,1 @@
+#Crie um programa que leia o nome de uma pessoa e mostre: O nome com todas as letras maiusculas; O nome com todas as letras minusculas; Quantas letras ao todo sem considerar os espços; Quantas letras tem o primeiro nome
