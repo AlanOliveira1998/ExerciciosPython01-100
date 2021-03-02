@@ -1,0 +1,1 @@
+# Escreva um programa que pergunte o salrio de uma funcionario e calcule o valor do seu aumento: - Para salarios superiores a R$ 1.250,00 calcule um aumento de 10% e para salarios inferiores ou iguais a R$ 1250,00 o aumento é de 15%
