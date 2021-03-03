@@ -1,16 +1,10 @@
-# falça um programa que leia um ano qualquer e mostre se ele é bissexto
-# Condição: 
-#1 - Se o ano for uniformemente divisível por 4, vá para a etapa 2. Caso contrário, vá para a etapa 5.;
-#2 - Se o ano for uniformemente divisível por 100, vá para a etapa 3. Caso contrário, vá para a etapa 4.;
-#3 - Se o ano for uniformemente divisível por 400, vá para a etapa 4. Caso contrário, vá para a etapa 5.;
-#4 - O ano é bissexto (tem 366 dias).;
-#5 - O ano não é um ano bissexto (tem 365 dias).;
+# faça um programa que leia um ano qualquer e mostre se ele é bissexto
+from datetime import date
 
-ano = int(input('Digite um ano qualquer:'))
-#Condição 1:
-resul_1 = ano /4
-if resul_1 = % 0:
-    resul_1 / 100
-    n = resul_1 / 100
-    if n != 0:
-        print('O ano de {} é bissesto')
+ano = int(input('Digite um ano qualquer ou coloque 0 para analisar o ano atual'))
+if ano == 0:
+    ano = date.today().year #Pega o ano atual da maquina
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print(f'O ano de {ano} é BISSEXTO')
+else:
+    print(f'O ano de {ano} NÂO é BISSEXTO')
