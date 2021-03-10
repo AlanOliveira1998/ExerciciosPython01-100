@@ -10,12 +10,12 @@ r3 = float(input('Digite da reta numero 3:'))
 #Condiçao de existencia de eum triangulo
 c = r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2
 if c == True:
-    print('Com esse valores você consegue formar um triangulo')
+    print('Com esse valores você consegue formar um triangulo.')
 else:
     print('Com esses valores você não consegue formar um triangulo')
 if r1 == r2:
-    print('E esse triangulo é ISÒCELES')
+    print('E esse triangulo é ISÒCELES.')
 if r1 != r2 != r3:
-    print('E esse triangulo é ESCALENO')
+    print('E esse triangulo é ESCALENO.')
 if r1 == r2 == r3:
-    print('E esse triangulo é EQUILATERO')
+    print('E esse triangulo é EQUILATERO.')
